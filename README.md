@@ -1,4 +1,4 @@
-# Cryptocurrenty Tableau
+# Cryptocurrency Live data visualization in Tableau by Google sheet / App script
 Visualization of live (regularly updated) Cryptocurrency data in Tableau
 
 ## Overview
