@@ -1,10 +1,14 @@
 # Cryptocurrency Live data visualization in Tableau by Google sheet / App script
-Visualization of live (regularly updated) Cryptocurrency data in Tableau
+Visualization project of live (daily updated) Cryptocurrency data with Tableau. The data gets updated everyday automatically.
+You can find the visualization at Tableau Public: [Here](https://public.tableau.com/profile/asuna.masuda#!/vizhome/Auto-updatedCryptocurrencyDailyChart/Crypto_Dash)
+
+<p align="center"><img src = "https://github.com/AsunaMasuda/Crypto_Tableau/blob/master/tableaulogo_highres.png" width=500></p>
 
 ## Overview
-- Visualised live cryptocurrency trade data (Bitcoin, XRP, Ethereum) in Tableau using API by [Independent Reserve](https://www.independentreserve.com/). The data gets renewed by an hour and shows the data of recent 10 days.
-- Used Google sheets as a storage of the live trade data. This was achieved by Google app script and I imported the Google sheets to Tableau.
+- Visualised cryptocurrency historical tradings data (Bitcoin, XRP, Ethereum) with Tableau using API provided by [CryptoCompare](https://www.cryptocompare.com/). CryptoCompare provides a free API where users can request 100,000 times per month for various types of cryptocurrency. 
+- The API data is dumped as JSON format. By using Google Sheet App Scripts it was imported to Google Sheets as tabular data, also was setted up to automatically upload the newest trading data everyday.
 
 ## Reference 
-- [DATA MASHUP](https://datamashupblog.wordpress.com/)
-- Google sheet app script for converting JSON file to Google sheet using API ([Github repo](https://gist.github.com/paulgambill/cacd19da95a1421d3164))
+- Google App Script (JavaScript) for converting JSON file to Google sheet using API ([Github repo](https://github.com/bradjasper/ImportJSON))
+- Google App Sript to renew data per certain interval [DATA MASHUP](https://datamashupblog.wordpress.com/)
+- Top 5 Free APIs to access historical cryptocurrencies data [Blog](https://blog.rmotr.com/top-5-free-apis-to-access-historical-cryptocurrencies-data-2438adc8b62)
