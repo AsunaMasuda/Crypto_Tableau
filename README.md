@@ -1,4 +1,4 @@
-# Cryptocurrency Live data visualization in Tableau by Google sheet / App script
+# Self-Updating Cryptocurrency Daily Chart with Tableau
 Visualization project of live (daily updated) Cryptocurrency data with Tableau. The data gets updated everyday automatically.
 You can find the visualization at Tableau Public: [Here](https://public.tableau.com/profile/asuna.masuda#!/vizhome/Auto-updatedCryptocurrencyDailyChart/Crypto_Dash)
 
