@@ -6,7 +6,7 @@ You can find the visualization at Tableau Public: [Here](https://public.tableau.
 
 ## Overview
 - Visualised cryptocurrency historical tradings data (Bitcoin, XRP, Ethereum) with Tableau using API provided by [CryptoCompare](https://www.cryptocompare.com/). CryptoCompare provides a free API where users can request 100,000 times per month for various types of cryptocurrency. 
-- The API data is dumped as JSON format. By using Google Sheet App Scripts it was imported to Google Sheets as tabular data, also was setted up to automatically upload the newest trading data everyday.
+- The API data is dumped as a JSON format. By using Google Sheet App Scripts I imported to Google Sheets as tabular data, also I set up to automatically upload the newest trading data at 1am GMT.
 
 ## Reference 
 - Google App Script (JavaScript) for converting JSON file to Google sheet using API ([Github repo](https://github.com/bradjasper/ImportJSON))
