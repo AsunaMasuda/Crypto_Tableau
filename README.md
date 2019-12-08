@@ -1,6 +1,6 @@
 # Self-Updating Cryptocurrency Daily Chart with Tableau
 Visualization project of live (daily updated) Cryptocurrency data with Tableau. The data gets updated everyday automatically.
-You can find the visualization at Tableau Public: [Here](https://public.tableau.com/profile/asuna.masuda#!/vizhome/Self-UploadingCryptocurrencyDailyChart/Dashboard1)
+You can find the visualization at Tableau Public: [Here](https://public.tableau.com/profile/asuna.masuda#!/vizhome/Self-UploadingCryptocurrencyDailyChartv2/Dashboard1)
 
 <p align="center"><img src = "https://github.com/AsunaMasuda/Crypto_Tableau/blob/master/tableaulogo_highres.png" width=500></p>
 
